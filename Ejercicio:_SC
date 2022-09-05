@@ -1,0 +1,47 @@
+public class Main {
+    public static void main(String[] args) {
+        int numeroif = 20;
+        int numeroWhile = 0;
+        String estacion = "CASTAÑO";
+
+        if (numeroif >= 0) {
+            System.out.println(numeroif + " Es postivo");
+        } else {
+            System.out.println(numeroif + " Es negativo");
+        }
+
+        while (numeroWhile < 3) {
+            System.out.println(numeroWhile++);
+        }
+
+
+        do {
+            System.out.println(numeroWhile ++);
+        } while (numeroWhile < 3);
+
+        for (int numerorfor = 0; numerorfor <= 3; numerorfor = numerorfor + 1){
+            System.out.println(numerorfor);
+
+        }
+
+        switch (estacion){
+            case "Primavera":
+                System.out.println("Es Primavera");
+                break;
+            case "Otoño":
+                System.out.println("Es Otoño");
+                break;
+            case "Invieno":
+                System.out.println("Es Invierno");
+                break;
+            case "verano":
+                System.out.println("Es Verano");
+                break;
+            default:
+                System.out.println(estacion + " No es una estacion");
+        }
+
+    }
+
+
+}
