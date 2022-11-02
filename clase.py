@@ -21,4 +21,20 @@ print(f'Velocidad maxima: {mercedez.velociad}')
 print(f'Cilindrada de: {mercedez.cilindrada}')
 
 
+-------------------------------------------------------------------------------------------------------------------------------
+
+class alumno:
+    nota = 0.0
+    nombre = ""
+            
+al = alumno
+al.nombre = "Tomas Guerrero"
+al.nota = 10.0
+
+if al.nota >= 5.0:
+        print(f"el alumno {al.nombre} tiene una nota {al.nota} y esta aprobado")
+else:
+        print(f"El alumno {al.nombre} tiene una nota {al.nota} y esta reprobado")
+
+
 
